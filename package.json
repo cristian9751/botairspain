@@ -1,0 +1,30 @@
+{
+  "name": "ticketbot",
+  "version": "0.0.1",
+  "description": "Ticket Bot for discord featuring categories and permission system based on user's roles",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "tsx dist/index.js",
+    "build": "tsup ./src/ --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian9751/ticketDiscordBot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Managing",
+    "Support",
+    "DiscordBot"
+  ],
+  "author": "Cristian Popica Onciu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "mongoose": "9.11.1",
+    "tsup": "^8.2.3",
+    "tsx": "^4.16.3",
+    "typescript": "^5.5.4"
+  }
+}
