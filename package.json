@@ -21,6 +21,7 @@
   "author": "Cristian Popica Onciu",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "14.27.0",
     "dotenv": "16.4.5",
     "mongoose": "9.11.1",
     "tsup": "^8.2.3",
